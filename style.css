@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+ 
+}
+
+body{
+     background:linear-gradient(to top,rgba(214, 214, 192, 0.1) ,rgba(207, 207, 183, 0.1)), url(https://i.pcmag.com/imagery/articles/00tLYTqwmgFvacZlYPc5ecO-8..v1583853669.jpg);
+     background-repeat: no-repeat;
+     background-size: 100vw  100vh;
+     
+}
+
+.second {
+    font-size: 70px;
+    font:bold;
+    color: black;
+}
+
+.minute{
+    font-size: 70px;
+    font:bold;
+    color: black;
+}
+
+.hour{
+font-size: 70px;
+    font:bold;
+    color: black;
+}
+
+.day{
+font-size: 70px;
+    font:bold;
+    color:black;
+}
+.fix{
+    display: flex;
+}
+
+#lable{
+    font-size: 25px;
+}
