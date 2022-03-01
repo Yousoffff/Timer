@@ -10,7 +10,7 @@ function calculateTime(){
     const sec = (date - currentDate) /1000;
     day.innerHTML = Math.floor(sec/86400);
     hour.innerHTML = Math.floor(sec/3600)%24;
-    minute.innerHTML = Math.floor(sec/60)%60
+    minute.innerHTML = Math.floor(sec/60)%60;
     second.innerHTML = Math.floor(sec) % 60;
 
 }
